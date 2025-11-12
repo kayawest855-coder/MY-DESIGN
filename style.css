@@ -1,0 +1,140 @@
+.container {
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 1px 1px 30px rgb(5, 255, 5);
+   border-radius: 10px;
+margin-top: 80px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mini-pic {
+    width: 25px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.logo {
+    width: 60px;
+}
+h1 {
+color: white;
+}
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+.sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    cursor: pointer;
+}
+.text:hover {
+    border-color: white;
+    transition: 0.5s;
+    padding: 5px 20px 20px 10px ;
+}
+.text2 {
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+.inner2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+.press {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.click {
+    width: 310px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.click:hover {
+    transition: 0.65s;
+    background-color: black;
+    color: rgb(5, 255, 5);
+    border-color: rgb(5, 255, 5);
+}
+.end {
+    color: white;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+.sign {
+    width: 310px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sign:hover {
+    transition: 0.65s;
+    background-color: black;
+    color: rgb(5, 255, 5);
+    border-color: rgb(5, 255, 5);
+}
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+span {
+    color: rgb(5, 255, 5);
+    cursor: pointer;
+}
+span:hover {
+    text-decoration: underline;
+}
